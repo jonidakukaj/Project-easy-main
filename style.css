@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  /* Purple Bar */
+  .header {
+	background-color: rgb(255, 0, 162);
+	color: #fff;
+	padding: 10px;
+	width: 100%;
+	height: 10rem;
+	position: absolute fixed;
+	z-index: 1;
+  }
+  /* Input Field */
+  .container {
+	margin: auto;
+	margin-top: -50px;
+	width: 40rem;
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	position: relative;
+	z-index: 2;
+  }
+  .container h2{
+	padding: 15px;
+  }
+  .input-container {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+  }
+  input[type="text"] {
+	flex: 1;
+	margin-right: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  button {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(255, 0, 162);
+	color: #fff;
+	cursor: pointer;
+  }
+  /* Task List */
+  #input {
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	width: 500px;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+	margin-top: -70px;
+  }
+  #headtask {
+	padding: 15px;
+	border: 1px solid rgb(187, 187, 187);
+	width: 38rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 22.6rem;
+  }
+  #headtask button {
+	width: 70px;
+	padding: 13px;
+	border: 2px solid rgb(255, 0, 162);
+	background-color: transparent;
+	color: rgb(255, 0, 162);
+	border-radius: 10px;
+  }
+  #headtask p{
+	margin-top: 14px;
+	font-weight: 30px;
+  }
+  #bottom-input {
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 1px solid rgb(187, 187, 187);
+	width: 350px;
+  }
+  .task {
+	padding: 15px;
+	border: 1px solid rgb(187, 187, 187);
+	width: 38rem;
+	margin-left: 22.6rem;
+  }
+  label {
+	color: rgb(90, 90, 90);
+	margin-left: 20px;
+  }
+  .icons {
+	float: right;
+	color: rgb(255, 0, 162);
+  }

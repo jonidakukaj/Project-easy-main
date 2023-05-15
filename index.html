@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <!-- Purple Bar -->
+  <div class="header"></div>
+  <!-- Input Field -->
+  <div class="container">
+    <h2>To do List</h2>
+    <div class="input-container">
+      <input type="text" id="taskInput" placeholder="Add new task...">
+      <button>Add</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!-- Task List   -->
+  <div class="task-list">
+    <div id="headtask">
+        <p>Edit:</p> <input type="text" id="bottom-input" placeholder="What are you gonna do?">
+        <button> <b>Save</b></button>
+    </div>
+    <!-- 1st Task -->
+    <div class="task">
+      <input type="checkbox" id="horns" name="horns">
+      <label for="horns">Cooking</label>
+      <div class="icons">
+        <span class="material-symbols-outlined">delete</span>
+        <span class="material-symbols-outlined">edit</span>
+      </div>
+    </div>
+    <!-- 2nd Task -->
+    <div class="task">
+      <input type="checkbox" id="horns" name="horns">
+      <label for="horns">Babysitting</label>
+      <div class="icons">
+        <span class="material-symbols-outlined">delete</span>
+        <span class="material-symbols-outlined">edit</span>
+      </div>
+    </div>
+    <!-- 3rd Task -->
+    <div class="task">
+      <input type="checkbox" id="horns" name="horns">
+      <label for="horns">Go to Fitness</label>
+      <div class="icons">
+        <span class="material-symbols-outlined">delete</span>
+        <span class="material-symbols-outlined">edit</span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
